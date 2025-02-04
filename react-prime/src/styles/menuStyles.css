@@ -1,0 +1,9 @@
+.activeLink{
+   span, i{
+    color: blueviolet;
+    
+   }
+    border: 2px solid blueviolet;
+    border-style: none none  none solid !important;
+}
+

@@ -1,0 +1,55 @@
+.avatarUser {
+    width: 10rem !important;
+    height: 10rem !important;
+    font-size: 2rem !important;
+
+}
+
+.containerFoto {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+.nombreUser {
+    font-size: 16px;
+
+}
+
+.contenedorDatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btnImg{
+    position: fixed;
+    width: 2.5rem;
+    height: 2.5rem;
+
+}
+
+.btnImg:hover{
+    border: #B2A5FF;
+    background-color: #B2A5FF;
+   
+}
+
+.contenedorLinks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.btnOption{
+    width: 17rem;
+    height: 5rem;
+    margin-top:1rem;
+   
+}
+.custom-icon-size .pi {
+    font-size: 20px; /* Ajusta el tamaño según necesites */
+}
+

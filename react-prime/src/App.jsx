@@ -5,6 +5,7 @@ import { Button } from 'primereact/button';
 import Navigation from './components/Navbar';
 import Home from './pages/Dashboard';
 import Otro from './pages/otro'
+import PerfilUser from './components/PerfilUser'
 import { BrowserRouter ,Route,Routes } from 'react-router';
 import './App.css'
 
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />}/>
           <Route path="otro" element={<Otro />}/>
+          <Route path="user" element={<PerfilUser />}/>
         </Routes>
     
     
